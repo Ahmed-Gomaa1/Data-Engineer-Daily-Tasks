@@ -1,0 +1,314 @@
+City,Observation Time,Temperature,Humidity,Weather,Wind Speed,Cloud Coverage:,Pressure,Precipitation,Visibility,Wind Direction
+Giza,11:31 PM,14,66,Clear ,12,2,1018,0.0,10,NNE
+Sixth of October,11:58 PM,14,68,Clear ,12,2,1018,0.0,10,NNE
+Cheikh Zayed,11:31 PM,-8,28,Clear ,14,2,1019,0.0,10,WSW
+Al Badrasheen,11:58 PM,13,32,Clear ,11,1,1020,0.0,10,ENE
+Saf,11:31 PM,6,44,Cloudy ,7,66,1028,0.0,10,W
+Atfih,11:48 PM,13,62,Clear ,9,0,1017,0.0,10,NNE
+Al Ayat,11:58 PM,14,59,Clear ,16,3,1018,0.0,10,NE
+Al-Bawaiti,11:31 PM,13,32,Clear ,11,1,1020,0.0,10,ENE
+ManshiyetAl Qanater,11:48 PM,8,64,Clear ,4,0,1022,0.0,10,ENE
+Abu Nomros,11:31 PM,13,55,Clear ,4,3,1017,0.0,10,NNE
+Kafr Ghati,11:31 PM,15,25,Clear ,9,0,1014,0.0,10,N
+Manshiyet Al Bakari,11:31 PM,14,66,Clear ,14,3,1018,0.0,10,NNE
+Dokki,11:58 PM,0,73,Clear ,6,11,1019,0.0,10,ENE
+Haram,11:58 PM,12,72,Overcast ,31,93,1007,0.0,10,SSW
+Warraq,11:57 PM,26,31,Clear ,14,0,1011,0.0,10,N
+Imbaba,11:48 PM,14,65,Clear ,12,2,1018,0.0,10,NE
+Boulaq Dakrour,12:24 AM,0,73,Clear ,9,11,1017,0.0,10,S
+Al Wahat Al Baharia,11:31 PM,17,64,Clear ,4,0,1017,0.0,10,SSE
+Bin Alsarayat,11:31 PM,22,81,Partly Cloudy ,9,27,1011,0.0,10,N
+Kit Kat,11:31 PM,-9,69,Clear ,5,6,1026,0.0,10,NE
+Faisal,11:58 PM,11,24,Clear ,4,0,1014,0.0,10,NNE
+Abu Rawash,11:58 PM,0,25,Clear ,9,0,1017,0.0,10,S
+Hadayek October,11:58 PM,14,68,Clear ,12,2,1018,0.0,10,NNE
+Saft Allaban,11:58 PM,13,65,Clear ,10,0,1017,0.0,10,N
+Smart Village,11:58 PM,25,87,Patchy rain nearby,14,86,1013,0.6,9,E
+Ard Ellwaa,11:58 PM,8,66,Patchy rain nearby,40,87,1008,0.2,9,NW
+Abu Qir,11:31 PM,16,68,Patchy rain nearby,12,89,1019,0.0,10,ENE
+Al Ibrahimeyah,11:31 PM,13,32,Clear ,11,1,1020,0.0,10,ENE
+Dekheila,11:58 PM,16,68,Patchy rain nearby,13,70,1019,0.0,10,ENE
+El Soyof,11:31 PM,15,73,Cloudy ,19,84,1020,0.0,10,NE
+Ameria,11:31 PM,27,79,Light rain shower,5,100,1009,1.0,10,NW
+El Labban,11:31 PM,16,69,Clear ,13,16,1019,0.0,10,ENE
+Al Mafrouza,11:31 PM,13,32,Clear ,11,1,1020,0.0,10,ENE
+El Montaza,11:31 PM,15,73,Cloudy ,19,84,1020,0.0,10,NE
+Bab Sharq,11:58 PM,9,23,Clear ,8,0,1019,0.0,10,N
+Bourj Alarab,11:58 PM,7,62,Clear ,6,0,1022,0.0,10,NE
+Stanley,11:58 PM,6,78,Patchy rain nearby,17,100,998,0.0,10,WNW
+Sidi Bishr,11:58 PM,16,68,Patchy rain nearby,12,89,1019,0.0,10,ENE
+Fleming,11:58 PM,8,77,Overcast ,23,100,1005,0.0,10,WSW
+Victoria,11:58 PM,22,28,Sunny,11,0,1017,0.0,10,ENE
+Camp Shizar,12:25 AM,0,35,Clear ,8,0,1017,0.0,10,SW
+Mahta Alraml,11:58 PM,11,24,Clear ,4,0,1014,0.0,10,NNE
+Mina El-Basal,11:31 PM,16,68,Patchy rain nearby,13,70,1019,0.0,10,ENE
+Asafra,11:58 PM,27,81,Clear ,10,3,1013,0.0,10,SSW
+Bakos,11:59 PM,4,59,Clear ,6,3,1022,0.0,10,E
+Cleopatra,11:58 PM,30,50,Partly Cloudy ,15,58,1008,0.0,10,SW
+Glim,11:59 PM,3,75,Clear ,5,14,1023,0.0,10,E
+Al Mamurah,11:58 PM,13,32,Clear ,11,1,1020,0.0,10,ENE
+Al Mandara,11:31 PM,14,66,Clear ,14,3,1018,0.0,10,NNE
+Moharam Bek,11:49 PM,10,31,Clear ,5,0,1016,0.0,10,NW
+Sidi Gaber,11:58 PM,1,93,Clear ,6,5,1023,0.0,10,W
+North Coast/sahel,11:59 PM,16,60,Clear ,6,10,1029,0.0,10,SW
+Sidi Kerir,11:58 PM,11,42,Clear ,8,3,1028,0.0,10,SW
+Al Max,11:58 PM,12,81,Clear ,10,0,1019,0.0,10,NE
+Marina,11:58 PM,20,55,Sunny,12,0,1021,0.0,10,ENE
+Mansoura,11:59 PM,10,63,Clear ,4,8,1030,0.0,10,S
+Talkha,11:59 PM,13,79,Clear ,9,13,1019,0.0,10,NNE
+Mitt Ghamr,11:58 PM,11,25,Clear ,9,2,1018,0.0,10,N
+Dekernes,11:58 PM,14,75,Clear ,9,16,1018,0.0,10,NE
+Aga,11:58 PM,14,83,Clear ,9,0,1031,0.0,10,E
+Menia El Nasr,11:58 PM,14,43,Clear ,5,4,1031,0.0,10,NE
+El Kurdi,11:59 PM,17,65,Partly Cloudy ,18,25,1018,0.0,10,NE
+Bani Ubaid,11:59 PM,9,51,Clear ,14,0,1022,0.0,10,NW
+Al Manzala,11:58 PM,13,80,Clear ,10,1,1018,0.0,10,NE
+tami al'amdid,11:58 PM,10,30,Clear ,4,0,1019,0.0,10,E
+Sherbin,11:58 PM,14,70,Clear ,9,6,1019,0.0,10,NE
+Mataria,11:32 PM,23,78,Patchy rain nearby,5,79,1011,0.0,10,N
+Meet Salsil,11:32 PM,10,26,Clear ,4,0,1015,0.0,10,NNE
+Gamasa,11:58 PM,-2,40,Clear ,11,0,1021,0.0,10,SSW
+Mahalat Damana,11:58 PM,18,20,Clear ,16,0,1017,0.0,10,NE
+Hurghada,11:59 PM,17,46,Clear ,19,0,1016,0.0,10,NW
+Ras Ghareb,11:32 PM,4,71,Clear ,4,23,1024,0.0,10,NNE
+Safaga,11:58 PM,18,46,Clear ,18,0,1016,0.0,10,NW
+City,Observation Time,Temperature,Humidity,Weather,Wind Speed,Cloud Coverage:,Pressure,Precipitation,Visibility,Wind Direction
+Al Azbakeyah,11:42 PM,13,32,Clear ,11,1,1020,0.0,10,ENE
+Al Basatin,12:09 AM,12,67,Clear ,4,0,1016,0.0,10,SSE
+Tebin,12:09 AM,22,97,Fog,4,100,1010,0.0,0,SSW
+El-Khalifa,11:42 PM,9,39,Clear ,4,0,1031,0.0,10,NW
+El darrasa,12:08 AM,14,82,Cloudy ,18,67,1021,0.0,10,NE
+Zawya al-Hamra,12:09 AM,13,82,Partly Cloudy ,8,33,1018,0.0,10,NNE
+El-Zaytoun,12:09 AM,14,82,Cloudy ,18,67,1021,0.0,10,NE
+Sahel,12:09 AM,16,60,Clear ,6,10,1029,0.0,10,SW
+El Salam,12:09 AM,20,20,Clear ,23,5,1018,0.0,10,ENE
+Sayeda Zeinab,12:09 AM,1,64,Clear ,4,3,1019,0.0,10,N
+El Sharabeya,11:42 PM,15,73,Cloudy ,19,84,1020,0.0,10,NE
+El Daher,12:09 AM,13,59,Clear ,12,13,1029,0.0,10,WSW
+Ataba,12:35 AM,27,81,Sunny,26,17,1008,0.0,10,NNE
+New Cairo,12:08 AM,7,76,Clear ,5,21,1016,0.0,10,SW
+El Marg,12:08 AM,13,72,Clear ,10,0,1018,0.0,10,NE
+Ezbet el Nakhl,12:09 AM,12,82,Clear ,9,5,1019,0.0,10,NNE
+Maadi,12:09 AM,29,68,Partly Cloudy ,4,29,1005,0.0,10,NE
+Maasara,11:42 PM,14,59,Clear ,16,3,1018,0.0,10,NE
+Manyal,12:08 AM,29,38,Clear ,5,6,1008,0.0,10,NE
+Nozha,11:42 PM,2,91,Blizzard,30,64,1019,0.3,0,WSW
+Bab al-Shereia,12:09 AM,9,77,Clear ,4,7,1024,0.0,10,NE
+Bolaq,12:09 AM,-10,46,Clear ,4,0,1026,0.0,10,E
+Garden City,12:08 AM,2,83,Overcast ,15,92,1023,0.0,10,NW
+Hadayek El-Kobba,12:09 AM,24,95,Mist,10,57,1008,0.1,2,WNW
+Helwan,11:42 PM,-3,42,Clear ,9,0,1021,0.0,10,SSW
+Dar Al Salam,12:09 AM,13,70,Clear ,15,1,1018,0.0,10,N
+Shubra,12:35 AM,14,66,Clear ,11,0,1018,0.0,10,NNE
+Tura,12:09 AM,16,68,Clear ,5,0,1015,0.0,10,E
+Abdeen,12:08 AM,11,52,Clear ,10,0,1019,0.0,10,NE
+Ain Shams,12:09 AM,4,17,Clear ,9,0,1017,0.0,10,SE
+Nasr City,12:09 AM,14,66,Clear ,11,0,1018,0.0,10,NNE
+New Heliopolis,12:08 AM,6,54,Clear ,5,4,1020,0.0,10,ESE
+Masr Al Qadima,12:09 AM,14,66,Clear ,11,0,1018,0.0,10,NNE
+Mansheya Nasir,12:09 AM,14,25,Clear ,9,0,1014,0.0,10,NNE
+Badr City,12:09 AM,10,40,Clear ,6,0,1019,0.0,10,W
+Obour City,12:09 AM,26,86,Patchy rain nearby,9,77,1012,0.0,10,WSW
+Cairo Downtown,12:09 AM,7,76,Clear ,5,21,1016,0.0,10,SW
+Zamalek,12:09 AM,14,66,Clear ,11,0,1018,0.0,10,NNE
+Kasr El Nile,12:09 AM,21,32,Clear ,8,2,1012,0.0,10,E
+Rehab,11:59 PM,27,68,Sunny,12,23,1018,0.0,10,NE
+Rod Alfarag,12:00 AM,9,95,Light rain,28,100,1007,1.4,9,SSW
+Sheraton,12:36 AM,27,80,Patchy rain nearby,30,59,1014,0.0,10,E
+El-Gamaleya,12:09 AM,14,82,Cloudy ,18,67,1021,0.0,10,NE
+10th of Ramadan City,12:09 AM,12,67,Clear ,8,2,1018,0.0,10,ENE
+New Nozha,12:09 AM,29,72,Patchy rain nearby,17,83,1008,0.0,10,WSW
+Capital New,12:09 AM,30,62,Partly Cloudy ,5,32,1006,0.0,10,WNW
+Giza,12:09 AM,14,67,Clear ,11,0,1018,0.0,10,NNE
+Sixth of October,12:09 AM,13,69,Clear ,11,0,1018,0.0,10,NNE
+Cheikh Zayed,12:09 AM,-8,28,Clear ,14,2,1019,0.0,10,WSW
+Al Badrasheen,12:36 AM,13,31,Clear ,12,3,1019,0.0,10,ENE
+Saf,12:36 AM,6,48,Clear ,6,8,1027,0.0,10,W
+Atfih,12:09 AM,13,63,Clear ,9,3,1017,0.0,10,N
+Al Ayat,12:09 AM,13,61,Clear ,14,1,1018,0.0,10,NE
+Al-Bawaiti,11:42 PM,13,32,Clear ,11,1,1020,0.0,10,ENE
+ManshiyetAl Qanater,12:09 AM,7,65,Clear ,4,0,1022,0.0,10,ENE
+Abu Nomros,12:09 AM,13,53,Clear ,4,3,1017,0.0,10,NNE
+Kafr Ghati,12:09 AM,14,25,Clear ,9,0,1014,0.0,10,N
+Manshiyet Al Bakari,12:09 AM,13,69,Clear ,14,2,1018,0.0,10,N
+Dokki,12:10 AM,0,72,Clear ,6,2,1019,0.0,10,ENE
+Haram,11:42 PM,12,72,Overcast ,31,93,1007,0.0,10,SSW
+Warraq,12:09 AM,26,33,Clear ,14,0,1011,0.0,10,N
+Imbaba,12:09 AM,14,66,Clear ,11,0,1018,0.0,10,NNE
+Boulaq Dakrour,11:42 PM,0,73,Clear ,9,11,1017,0.0,10,S
+Al Wahat Al Baharia,12:09 AM,17,62,Clear ,4,0,1016,0.0,10,SE
+Bin Alsarayat,11:42 PM,22,81,Partly Cloudy ,9,27,1011,0.0,10,N
+Kit Kat,11:42 PM,-9,69,Clear ,5,6,1026,0.0,10,NE
+Faisal,12:09 AM,10,25,Clear ,4,0,1014,0.0,10,NE
+Abu Rawash,12:09 AM,0,25,Clear ,9,0,1017,0.0,10,S
+Hadayek October,12:09 AM,13,69,Clear ,11,0,1018,0.0,10,NNE
+Saft Allaban,12:09 AM,12,65,Clear ,11,3,1017,0.0,10,NNW
+Smart Village,11:42 PM,25,87,Patchy rain nearby,14,86,1013,0.6,9,E
+Ard Ellwaa,12:00 AM,8,64,Patchy rain nearby,44,70,1010,0.3,9,NW
+Abu Qir,12:09 AM,16,68,Patchy rain nearby,10,71,1019,0.0,10,ENE
+Al Ibrahimeyah,12:09 AM,13,31,Clear ,12,3,1019,0.0,10,ENE
+Dekheila,12:09 AM,16,68,Patchy rain nearby,11,84,1019,0.0,10,ENE
+El Soyof,12:10 AM,14,82,Cloudy ,18,67,1021,0.0,10,NE
+Ameria,12:09 AM,27,78,Light rain shower,4,100,1009,0.5,10,NNW
+El Labban,12:00 AM,16,70,Patchy rain nearby,12,70,1019,0.0,10,ENE
+Al Mafrouza,12:09 AM,13,31,Clear ,12,3,1019,0.0,10,ENE
+El Montaza,12:09 AM,14,82,Cloudy ,18,67,1021,0.0,10,NE
+City,Observation Time,Temperature,Humidity,Weather,Wind Speed,Cloud Coverage:,Pressure,Precipitation,Visibility,Wind Direction
+Al Azbakeyah,11:42 PM,13,32,Clear ,11,1,1020,0.0,10,ENE
+Al Basatin,12:09 AM,12,67,Clear ,4,0,1016,0.0,10,SSE
+Tebin,12:09 AM,22,97,Fog,4,100,1010,0.0,0,SSW
+El-Khalifa,11:42 PM,9,39,Clear ,4,0,1031,0.0,10,NW
+El darrasa,12:08 AM,14,82,Cloudy ,18,67,1021,0.0,10,NE
+Zawya al-Hamra,12:09 AM,13,82,Partly Cloudy ,8,33,1018,0.0,10,NNE
+El-Zaytoun,12:09 AM,14,82,Cloudy ,18,67,1021,0.0,10,NE
+Sahel,12:09 AM,16,60,Clear ,6,10,1029,0.0,10,SW
+El Salam,12:09 AM,20,20,Clear ,23,5,1018,0.0,10,ENE
+Sayeda Zeinab,12:09 AM,1,64,Clear ,4,3,1019,0.0,10,N
+El Sharabeya,11:42 PM,15,73,Cloudy ,19,84,1020,0.0,10,NE
+El Daher,12:09 AM,13,59,Clear ,12,13,1029,0.0,10,WSW
+Ataba,12:35 AM,27,81,Sunny,26,17,1008,0.0,10,NNE
+New Cairo,12:08 AM,7,76,Clear ,5,21,1016,0.0,10,SW
+El Marg,12:08 AM,13,72,Clear ,10,0,1018,0.0,10,NE
+Ezbet el Nakhl,12:09 AM,12,82,Clear ,9,5,1019,0.0,10,NNE
+Maadi,12:09 AM,29,68,Partly Cloudy ,4,29,1005,0.0,10,NE
+Maasara,11:42 PM,14,59,Clear ,16,3,1018,0.0,10,NE
+Manyal,12:08 AM,29,38,Clear ,5,6,1008,0.0,10,NE
+Nozha,11:42 PM,2,91,Blizzard,30,64,1019,0.3,0,WSW
+Bab al-Shereia,12:09 AM,9,77,Clear ,4,7,1024,0.0,10,NE
+Bolaq,12:09 AM,-10,46,Clear ,4,0,1026,0.0,10,E
+Garden City,12:08 AM,2,83,Overcast ,15,92,1023,0.0,10,NW
+Hadayek El-Kobba,12:09 AM,24,95,Mist,10,57,1008,0.1,2,WNW
+Helwan,11:42 PM,-3,42,Clear ,9,0,1021,0.0,10,SSW
+Dar Al Salam,12:09 AM,13,70,Clear ,15,1,1018,0.0,10,N
+Shubra,12:35 AM,14,66,Clear ,11,0,1018,0.0,10,NNE
+Tura,12:09 AM,16,68,Clear ,5,0,1015,0.0,10,E
+Abdeen,12:08 AM,11,52,Clear ,10,0,1019,0.0,10,NE
+Ain Shams,12:09 AM,4,17,Clear ,9,0,1017,0.0,10,SE
+Nasr City,12:09 AM,14,66,Clear ,11,0,1018,0.0,10,NNE
+New Heliopolis,12:08 AM,6,54,Clear ,5,4,1020,0.0,10,ESE
+Masr Al Qadima,12:09 AM,14,66,Clear ,11,0,1018,0.0,10,NNE
+Mansheya Nasir,12:09 AM,14,25,Clear ,9,0,1014,0.0,10,NNE
+Badr City,12:09 AM,10,40,Clear ,6,0,1019,0.0,10,W
+Obour City,12:09 AM,26,86,Patchy rain nearby,9,77,1012,0.0,10,WSW
+Cairo Downtown,12:09 AM,7,76,Clear ,5,21,1016,0.0,10,SW
+Zamalek,12:09 AM,14,66,Clear ,11,0,1018,0.0,10,NNE
+Kasr El Nile,12:09 AM,21,32,Clear ,8,2,1012,0.0,10,E
+Rehab,11:59 PM,27,68,Sunny,12,23,1018,0.0,10,NE
+Rod Alfarag,12:00 AM,9,95,Light rain,28,100,1007,1.4,9,SSW
+Sheraton,12:36 AM,27,80,Patchy rain nearby,30,59,1014,0.0,10,E
+El-Gamaleya,12:09 AM,14,82,Cloudy ,18,67,1021,0.0,10,NE
+10th of Ramadan City,12:09 AM,12,67,Clear ,8,2,1018,0.0,10,ENE
+New Nozha,12:09 AM,29,72,Patchy rain nearby,17,83,1008,0.0,10,WSW
+Capital New,12:09 AM,30,62,Partly Cloudy ,5,32,1006,0.0,10,WNW
+Giza,12:09 AM,14,67,Clear ,11,0,1018,0.0,10,NNE
+Sixth of October,12:09 AM,13,69,Clear ,11,0,1018,0.0,10,NNE
+Cheikh Zayed,12:09 AM,-8,28,Clear ,14,2,1019,0.0,10,WSW
+Al Badrasheen,12:36 AM,13,31,Clear ,12,3,1019,0.0,10,ENE
+Saf,12:36 AM,6,48,Clear ,6,8,1027,0.0,10,W
+Atfih,12:09 AM,13,63,Clear ,9,3,1017,0.0,10,N
+Al Ayat,12:09 AM,13,61,Clear ,14,1,1018,0.0,10,NE
+Al-Bawaiti,11:42 PM,13,32,Clear ,11,1,1020,0.0,10,ENE
+ManshiyetAl Qanater,12:09 AM,7,65,Clear ,4,0,1022,0.0,10,ENE
+Abu Nomros,12:09 AM,13,53,Clear ,4,3,1017,0.0,10,NNE
+Kafr Ghati,12:09 AM,14,25,Clear ,9,0,1014,0.0,10,N
+Manshiyet Al Bakari,12:09 AM,13,69,Clear ,14,2,1018,0.0,10,N
+Dokki,12:10 AM,0,72,Clear ,6,2,1019,0.0,10,ENE
+Haram,11:42 PM,12,72,Overcast ,31,93,1007,0.0,10,SSW
+Warraq,12:09 AM,26,33,Clear ,14,0,1011,0.0,10,N
+Imbaba,12:09 AM,14,66,Clear ,11,0,1018,0.0,10,NNE
+Boulaq Dakrour,11:42 PM,0,73,Clear ,9,11,1017,0.0,10,S
+Al Wahat Al Baharia,12:09 AM,17,62,Clear ,4,0,1016,0.0,10,SE
+Bin Alsarayat,11:42 PM,22,81,Partly Cloudy ,9,27,1011,0.0,10,N
+Kit Kat,11:42 PM,-9,69,Clear ,5,6,1026,0.0,10,NE
+Faisal,12:09 AM,10,25,Clear ,4,0,1014,0.0,10,NE
+Abu Rawash,12:09 AM,0,25,Clear ,9,0,1017,0.0,10,S
+Hadayek October,12:09 AM,13,69,Clear ,11,0,1018,0.0,10,NNE
+Saft Allaban,12:09 AM,12,65,Clear ,11,3,1017,0.0,10,NNW
+Smart Village,11:42 PM,25,87,Patchy rain nearby,14,86,1013,0.6,9,E
+Ard Ellwaa,12:00 AM,8,64,Patchy rain nearby,44,70,1010,0.3,9,NW
+Abu Qir,12:09 AM,16,68,Patchy rain nearby,10,71,1019,0.0,10,ENE
+Al Ibrahimeyah,12:09 AM,13,31,Clear ,12,3,1019,0.0,10,ENE
+Dekheila,12:09 AM,16,68,Patchy rain nearby,11,84,1019,0.0,10,ENE
+El Soyof,12:10 AM,14,82,Cloudy ,18,67,1021,0.0,10,NE
+Ameria,12:09 AM,27,78,Light rain shower,4,100,1009,0.5,10,NNW
+El Labban,12:00 AM,16,70,Patchy rain nearby,12,70,1019,0.0,10,ENE
+Al Mafrouza,12:09 AM,13,31,Clear ,12,3,1019,0.0,10,ENE
+El Montaza,12:09 AM,14,82,Cloudy ,18,67,1021,0.0,10,NE
+City,Observation Time,Temperature,Humidity,Weather,Wind Speed,Cloud Coverage:,Pressure,Precipitation,Visibility,Wind Direction
+North Coast/sahel,12:21 AM,16,60,Clear ,6,10,1029,0.0,10,SW
+Sidi Kerir,12:20 AM,11,42,Clear ,8,3,1028,0.0,10,SW
+Al Max,12:20 AM,12,82,Clear ,9,5,1019,0.0,10,NNE
+Marina,12:20 AM,19,55,Sunny,11,1,1020,0.0,10,NE
+Mansoura,12:20 AM,10,63,Clear ,4,8,1030,0.0,10,S
+Talkha,12:21 AM,13,78,Clear ,8,11,1018,0.0,10,NNE
+Mitt Ghamr,12:21 AM,11,28,Clear ,7,0,1017,0.0,10,N
+Dekernes,12:20 AM,14,73,Clear ,9,16,1018,0.0,10,NNE
+Aga,12:21 AM,14,83,Clear ,9,0,1031,0.0,10,E
+Menia El Nasr,11:54 PM,14,43,Clear ,5,4,1031,0.0,10,NE
+El Kurdi,12:20 AM,17,65,Partly Cloudy ,18,26,1018,0.0,10,NE
+Bani Ubaid,11:54 PM,9,51,Clear ,14,0,1022,0.0,10,NW
+Al Manzala,12:21 AM,12,81,Clear ,9,0,1018,0.0,10,NE
+tami al'amdid,12:47 AM,10,31,Clear ,4,0,1019,0.0,10,ENE
+Sherbin,12:21 AM,14,67,Clear ,9,9,1018,0.0,10,NE
+Mataria,11:54 PM,23,78,Patchy rain nearby,5,79,1011,0.0,10,N
+Meet Salsil,12:21 AM,9,26,Clear ,4,0,1015,0.0,10,NE
+Gamasa,12:21 AM,-2,40,Clear ,11,0,1021,0.0,10,SSW
+Mahalat Damana,12:21 AM,18,20,Clear ,16,0,1017,0.0,10,NE
+Hurghada,11:54 PM,17,46,Clear ,19,0,1016,0.0,10,NW
+Ras Ghareb,12:21 AM,4,71,Clear ,4,23,1024,0.0,10,NNE
+Safaga,11:54 PM,18,46,Clear ,18,0,1016,0.0,10,NW
+El Qusiar,12:48 AM,14,82,Cloudy ,18,67,1021,0.0,10,NE
+Marsa Alam,12:21 AM,19,62,Clear ,17,7,1015,0.0,10,NW
+Damanhour,12:12 AM,12,81,Clear ,8,2,1019,0.0,10,NE
+Kafr El Dawar,12:48 AM,14,74,Clear ,9,7,1019,0.0,10,ENE
+Rashid,12:21 AM,3,37,Clear ,4,0,1021,0.0,10,NE
+Edco,12:21 AM,26,88,Patchy rain nearby,4,54,1008,0.0,10,ESE
+Abu al-Matamir,12:12 AM,12,83,Clear ,8,5,1019,0.0,10,NE
+Abu Homs,12:21 AM,8,51,Clear ,8,0,1021,0.0,10,E
+Mahmoudiyah,11:54 PM,9,43,Clear ,9,1,1020,0.0,10,E
+Rahmaniyah,11:54 PM,7,67,Clear ,4,0,1022,0.0,10,N
+Itai Baroud,12:21 AM,15,43,Clear ,6,8,1029,0.0,10,SW
+Kom Hamada,12:21 AM,12,82,Clear ,9,15,1019,0.0,10,NNE
+Badr,11:54 PM,-2,15,Clear ,9,0,1020,0.0,10,NNE
+Wadi Natrun,11:54 PM,12,85,Clear ,10,5,1019,0.0,10,NNE
+New Nubaria,12:21 AM,29,72,Patchy rain nearby,17,83,1008,0.0,10,WSW
+Fayoum,11:54 PM,14,66,Clear ,14,3,1018,0.0,10,NNE
+Fayoum El Gedida,12:48 AM,20,49,Clear ,4,3,1014,0.0,10,SE
+Tamiya,12:21 AM,13,70,Clear ,15,1,1018,0.0,10,N
+Snores,12:21 AM,2,96,Light rain,22,100,998,0.8,9,S
+Etsa,12:21 AM,22,98,Patchy rain nearby,4,81,1011,0.4,9,WSW
+Yusuf El Sediaq,12:21 AM,7,50,Clear ,5,4,1028,0.0,10,WSW
+Hadqa,11:54 PM,14,66,Clear ,14,3,1018,0.0,10,NNE
+Atsa,12:22 AM,2,69,Clear ,4,2,1024,0.0,10,NW
+Sayala,12:21 AM,15,36,Clear ,6,0,1012,0.0,10,ENE
+Tanta,12:22 AM,12,83,Clear ,9,23,1018,0.0,10,NNE
+Al Mahalla Al Kobra,12:21 AM,23,60,Clear ,6,13,1014,0.0,10,SSW
+Kafr El Zayat,11:55 PM,12,81,Clear ,10,11,1019,0.0,10,NNE
+El Santa,12:21 AM,22,66,Clear ,6,11,1013,0.0,10,NNW
+Basion,12:22 AM,5,77,Clear ,4,4,1023,0.0,10,W
+Ismailia,11:55 PM,14,64,Clear ,10,2,1018,0.0,10,ENE
+Qantara Sharq,12:22 AM,6,69,Clear ,4,0,1022,0.0,10,N
+Qantara Gharb,11:55 PM,6,68,Clear ,4,0,1022,0.0,10,NNW
+El Tal El Kabier,12:22 AM,17,73,Partly Cloudy ,23,39,1025,0.0,10,NW
+Abu Sawir,11:55 PM,22,93,Cloudy ,4,68,1008,0.0,10,SE
+Kasasien El Gedida,12:21 AM,20,49,Clear ,4,3,1014,0.0,10,SE
+Sheikh Zayed,12:48 AM,-8,27,Clear ,12,0,1019,0.0,10,WSW
+Shbeen El Koom,12:21 AM,-4,32,Sunny,10,5,1028,0.0,10,NW
+Sadat City,12:21 AM,12,85,Clear ,10,9,1018,0.0,10,NNE
+Menouf,11:55 PM,12,85,Clear ,10,5,1019,0.0,10,NNE
+Sars El-Layan,12:21 AM,21,94,Light rain shower,4,99,1011,0.2,10,NE
+Al Bagor,11:55 PM,11,42,Clear ,4,0,1014,0.0,10,S
+Berkat El Saba,12:12 AM,6,27,Clear ,5,0,1015,0.0,10,NNE
+Tala,12:21 AM,20,87,Cloudy ,28,73,1012,0.0,10,S
+Al Shohada,11:55 PM,12,83,Clear ,10,15,1019,0.0,10,NNE
+Minya,12:12 AM,-11,93,Overcast ,8,100,997,0.0,10,ENE
+Minya El Gedida,12:22 AM,12,68,Clear ,12,2,1017,0.0,10,NNW
+El Adwa,12:22 AM,16,40,Clear ,4,0,1015,0.0,10,NW
+Magagha,11:55 PM,13,68,Clear ,11,0,1017,0.0,10,NNW
+Bani Mazar,12:22 AM,12,68,Clear ,12,2,1017,0.0,10,NNW
+Samalut,12:21 AM,13,70,Clear ,13,2,1017,0.0,10,NNW
+Madinat El Fekria,12:22 AM,18,49,Partly Cloudy ,33,33,1019,0.0,10,NW
+Meloy,12:21 AM,0,61,Partly Cloudy ,42,31,989,0.0,10,ENE
+Deir Mawas,12:22 AM,13,70,Clear ,11,0,1018,0.0,10,NW
+Abu Qurqas,12:48 AM,12,70,Clear ,12,0,1017,0.0,10,NW
+Ard Sultan,12:22 AM,8,64,Patchy rain nearby,44,70,1010,0.3,9,NW
