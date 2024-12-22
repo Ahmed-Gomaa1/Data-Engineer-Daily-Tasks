@@ -24,14 +24,15 @@ The database schema includes the following key tables:
 - **Country**: Countries where shows are available
 - **Genre**: Genres for shows
 - **Show_Metadata**: Metadata for each show, such as date_added and rating
-  - # Join Tables:
-- **Show_Director**: Links shows to directors
-- **Show_Cast**: Links shows to cast members
-- **Show_Country**: Links shows to countries
-- **Show_Genre**: Links shows to genres
+- **Join Tables**:
+  - **Show_Director**: Links shows to directors
+  - **Show_Cast**: Links shows to cast members
+  - **Show_Country**: Links shows to countries
+  - **Show_Genre**: Links shows to genres
 
 ## ERD Diagram
 Below is the Entity-Relationship Diagram (ERD) representing the database schema:
+
 ![ERD Image](https://github.com/Ahmed-Gomaa1/Data-Engineer-Daily-Tasks/blob/main/Day2%20Design%20and%20Implement%20DB%20and%20interacting%20with%20Python%20Libraries/Netflix%20Shows.png)
 
 ## **Setup and Requirements**
