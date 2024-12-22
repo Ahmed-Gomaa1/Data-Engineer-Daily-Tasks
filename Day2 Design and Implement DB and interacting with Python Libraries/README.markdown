@@ -37,7 +37,7 @@ The database schema includes the following key tables:
 
 Below is the Entity-Relationship Diagram (ERD) representing the database schema:
 
-![ERD Image](https://github.com/Ahmed-Gomaa1/Data-Engineer-Daily-Tasks/blob/main/Day2%20Design%20and%20Implement%20DB%20and%20interacting%20with%20Python%20Libraries/netflix_titles.csv)
+![ERD Image](https://github.com/Ahmed-Gomaa1/Data-Engineer-Daily-Tasks/blob/main/Day2%20Design%20and%20Implement%20DB%20and%20interacting%20with%20Python%20Libraries/Netflix%20Shows.png)
 
 ## **Setup and Requirements**
 
