@@ -24,7 +24,7 @@ The database schema includes the following key tables:
 - **Country**: Countries where shows are available
 - **Genre**: Genres for shows
 - **Show_Metadata**: Metadata for each show, such as date_added and rating
-## Join Tables:
+  - # Join Tables:
 - **Show_Director**: Links shows to directors
 - **Show_Cast**: Links shows to cast members
 - **Show_Country**: Links shows to countries
