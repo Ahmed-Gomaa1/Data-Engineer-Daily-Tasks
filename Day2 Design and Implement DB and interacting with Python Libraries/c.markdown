@@ -15,13 +15,39 @@ The goal of this project is to:
 - **SQLAlchemy**: Uses SQLAlchemy ORM to interact with SQL Server.
 - **Data Normalization**: Ensures that data inserted into the database does not contain duplicates, including normalized cast, director, and genre names to prevent insertion issues.
 - **Error Handling**: Handles errors related to unique constraints, ensuring that the system continues functioning even if some records fail to insert.
-  
+
+## Database Schema
+
+The database schema includes the following key tables:
+
+- **Show**: Main show details
+- **Director**: Show directors
+- **Cast**: Cast members
+- **Country**: Countries where shows are available
+- **Genre**: Genres for shows
+- **Show_Metadata**: Metadata for each show, such as date_added and rating
+
+### Join Tables:
+- **Show_Director**: Links shows to directors
+- **Show_Cast**: Links shows to cast members
+- **Show_Country**: Links shows to countries
+- **Show_Genre**: Links shows to genres
+
+## ERD Diagram
+
+Below is the Entity-Relationship Diagram (ERD) representing the database schema:
+
+![ERD Image](Day2 Design and Implement DB and interacting with Python Libraries\Netflix Shows.png)
+
+Note: Make sure to replace path/to/your/erd_image.png with the correct path to the ERD image in your GitHub repository.
 ## **Setup and Requirements**
 
 1. Install Python dependencies:
     - `SQLAlchemy`
     - `pandas`
     - `pyodbc`
+    - `unicodedata`
+    - `sys`
 
 # **Project Workflow**
 
