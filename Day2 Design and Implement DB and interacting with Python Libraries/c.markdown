@@ -32,4 +32,5 @@ The goal of this project is to:
  - If duplicates are found (e.g., a director or cast member already exists), the script will skip the insertion for that particular record and continue processing the rest of the file.
  - All errors related to SQL operations are logged for review.
 # **Conclusion**
-This project demonstrates how to design a database schema and populate it with data from a CSV file while ensuring data integrity and normalization using Python and SQL Server. This solution is extensible for more complex datasets and can be adapted to other relational databases as needed.
+This project demonstrates how to design a database schema and populate it with data from a CSV file while ensuring data integrity and normalization using Python and SQL Server. 
+This solution is extensible for more complex datasets and can be adapted to other relational databases as needed.
