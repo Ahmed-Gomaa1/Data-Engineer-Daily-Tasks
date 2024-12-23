@@ -6,7 +6,7 @@ from sqlalchemy.exc import IntegrityError, SQLAlchemyError
 import sys
 sys.stdout.reconfigure(encoding='utf-8')
 
-DATABASE_URL = "mssql+pyodbc://3hmed@./NetflixShowsDB?trusted_connection=yes&driver=ODBC+Driver+17+for+SQL+Server"
+DATABASE_URL = "mssql+pyodbc://3hmed@./NetflixShows?trusted_connection=yes&driver=ODBC+Driver+17+for+SQL+Server"
 
 engine = create_engine(DATABASE_URL)
 Session = sessionmaker(bind=engine)
@@ -15,7 +15,7 @@ metadata = MetaData()
 
 Show = Table(
     'Show', metadata,
-    Column('show_id', Integer, primary_key=True, autoincrement=True),
+    Column('show_id', Integer, primary_key=True),
     Column('title', String(255), nullable=False),
     Column('type', Enum('Movie', 'TV Show', name='show_type'), nullable=False),
     Column('release_year', Integer, nullable=False),
@@ -78,18 +78,20 @@ def normalize_name(name):
     return name
 
 def insert_data_from_csv(csv_path):
-    data = pd.read_csv(csv_path).fillna('')
+    data = pd.read_csv(csv_path).fillna(' ')
 
     for _, row in data.iterrows():
         try:
             insert_stmt = Show.insert().values(
+                show_id=row['show_id'], 
                 title=row['title'],
                 type=row['type'],
                 release_year=row['release_year'],
                 description=row['description']
-            ).returning(Show.c.show_id)
-            show_id = session.execute(insert_stmt).scalar()
+            )
+            session.execute(insert_stmt)
 
+            # Handle Directors
             for director in row['director'].split(','):
                 director = director.strip()
                 if director:
@@ -109,8 +111,9 @@ def insert_data_from_csv(csv_path):
                     director_id_query = select(Director.c.director_id).where(Director.c.name == director)
                     director_id = session.execute(director_id_query).scalar()
 
-                    session.execute(Show_Director.insert().values(show_id=show_id, director_id=director_id))
+                    session.execute(Show_Director.insert().values(show_id=row['show_id'], director_id=director_id))
 
+            # Handle Cast
             for cast_member in row['cast'].split(','):
                 cast_member = cast_member.strip()
                 if cast_member:
@@ -134,21 +137,22 @@ def insert_data_from_csv(csv_path):
                     cast_id_query = select(Cast.c.cast_id).where(Cast.c.name == cast_member)
                     cast_id = session.execute(cast_id_query).scalar()
 
-                    if cast_id:  
+                    if cast_id:
                         check_show_cast_stmt = text("""
                             SELECT COUNT(1)
                             FROM Show_Cast
                             WHERE show_id = :show_id AND cast_id = :cast_id
                         """)
-                        exists_in_show_cast = session.execute(check_show_cast_stmt, {'show_id': show_id, 'cast_id': cast_id}).scalar()
+                        exists_in_show_cast = session.execute(check_show_cast_stmt, {'show_id': row['show_id'], 'cast_id': cast_id}).scalar()
 
                         if not exists_in_show_cast:
-                            session.execute(Show_Cast.insert().values(show_id=show_id, cast_id=cast_id))
+                            session.execute(Show_Cast.insert().values(show_id=row['show_id'], cast_id=cast_id))
                         else:
-                            print(f"Warning: Combination of show_id {show_id} and cast_id {cast_id} already exists in Show_Cast.")
+                            print(f"Warning: Combination of show_id {row['show_id']} and cast_id {cast_id} already exists in Show_Cast.")
                     else:
                         print(f"Warning: Cast member '{cast_member}' could not be found or inserted correctly.")
 
+            # Handle Countries
             for country in row['country'].split(','):
                 country = country.strip()
                 if country:
@@ -168,8 +172,9 @@ def insert_data_from_csv(csv_path):
                     country_id_query = select(Country.c.country_id).where(Country.c.name == country)
                     country_id = session.execute(country_id_query).scalar()
 
-                    session.execute(Show_Country.insert().values(show_id=show_id, country_id=country_id))
+                    session.execute(Show_Country.insert().values(show_id=row['show_id'], country_id=country_id))
 
+            # Handle Genres
             for genre in row['listed_in'].split(','):
                 genre = genre.strip()
                 if genre:
@@ -189,17 +194,18 @@ def insert_data_from_csv(csv_path):
                     genre_id_query = select(Genre.c.genre_id).where(Genre.c.name == genre)
                     genre_id = session.execute(genre_id_query).scalar()
 
-                    session.execute(Show_Genre.insert().values(show_id=show_id, genre_id=genre_id))
+                    session.execute(Show_Genre.insert().values(show_id=row['show_id'], genre_id=genre_id))
 
+            # Insert Metadata
             metadata_stmt = Show_Metadata.insert().values(
-                show_id=show_id,
+                show_id=row['show_id'],
                 date_added=row['date_added'],
                 rating=row['rating'],
                 duration=row['duration']
             )
             session.execute(metadata_stmt)
             session.commit()
-            
+
         except SQLAlchemyError as e:
             print(f"Error processing row: {row}. Error: {e}")
             session.rollback()
