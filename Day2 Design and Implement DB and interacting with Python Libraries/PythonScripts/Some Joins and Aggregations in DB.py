@@ -2,7 +2,7 @@ import pandas as pd
 from sqlalchemy import create_engine, text
 
 # Set up the database connection
-DATABASE_URL = "mssql+pyodbc://3hmed@./NetflixShowsDB?trusted_connection=yes&driver=ODBC+Driver+17+for+SQL+Server"
+DATABASE_URL = "mssql+pyodbc://3hmed@./NetflixShows?trusted_connection=yes&driver=ODBC+Driver+17+for+SQL+Server"
 engine = create_engine(DATABASE_URL)
 
 # Function to execute SQL queries and return results as pandas DataFrame
