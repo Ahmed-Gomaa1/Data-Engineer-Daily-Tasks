@@ -90,7 +90,6 @@ def insert_data_from_csv(csv_path):
                 description=row['description']
             )
             session.execute(insert_stmt)
-
             # Handle Directors
             for director in row['director'].split(','):
                 director = director.strip()
