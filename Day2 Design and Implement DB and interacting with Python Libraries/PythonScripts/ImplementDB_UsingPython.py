@@ -126,30 +126,13 @@ def insert_data_from_csv(csv_path):
                     exists = session.execute(check_stmt, {'cast_member': normalized_cast_member}).scalar()
 
                     if not exists:
-                        try:
-                            insert_stmt = text("INSERT INTO Cast (name) VALUES (:cast_member)")
-                            session.execute(insert_stmt, {'cast_member': cast_member})
-                        except IntegrityError as e:
-                            print(f"Error inserting cast member '{cast_member}': {e}")
-                            continue
+                        insert_stmt = text("INSERT INTO Cast (name) VALUES (:cast_member)")
+                        session.execute(insert_stmt, {'cast_member': cast_member})
 
                     cast_id_query = select(Cast.c.cast_id).where(Cast.c.name == cast_member)
                     cast_id = session.execute(cast_id_query).scalar()
 
-                    if cast_id:
-                        check_show_cast_stmt = text("""
-                            SELECT COUNT(1)
-                            FROM Show_Cast
-                            WHERE show_id = :show_id AND cast_id = :cast_id
-                        """)
-                        exists_in_show_cast = session.execute(check_show_cast_stmt, {'show_id': row['show_id'], 'cast_id': cast_id}).scalar()
-
-                        if not exists_in_show_cast:
-                            session.execute(Show_Cast.insert().values(show_id=row['show_id'], cast_id=cast_id))
-                        else:
-                            print(f"Warning: Combination of show_id {row['show_id']} and cast_id {cast_id} already exists in Show_Cast.")
-                    else:
-                        print(f"Warning: Cast member '{cast_member}' could not be found or inserted correctly.")
+                    session.execute(Show_Cast.insert().values(show_id=row['show_id'], cast_id=cast_id))
 
             # Handle Countries
             for country in row['country'].split(','):
